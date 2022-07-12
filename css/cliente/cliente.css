@@ -1,0 +1,50 @@
+h1,
+h2 {
+	font-family: 'Bebas Neue', cursive;
+}
+
+.card-action {
+	align-items: center;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: grid;
+	height: 200px;
+	width: 80%;
+	border-radius: 16px;
+
+	color: #fff;
+	font-family: 'Patua One', cursive;
+	text-decoration: none;
+}
+
+.card-action:hover {
+	color: #b7b7b7;
+}
+
+.card-information {
+	background-image: url('../../imgs/cliente/informacion.jpg');
+}
+
+.card-cars {
+	background-image: url('../../imgs/cliente/autos.jpg');
+}
+
+.card-pays {
+	background-image: url('../../imgs/cliente/pagos.jpg');
+}
+
+.card-services {
+	background-image: url('../../imgs/cliente/servicios.jpg');
+}
+
+.card-action h2 {
+	font-size: 30px;
+	margin: 0;
+}
+
+.card-action .card-background {
+	align-items: center;
+	border-radius: 16px;
+	display: grid;
+}
