@@ -23,6 +23,10 @@ nav a {
 	text-decoration: none;
 }
 
+nav a:hover {
+	color: #636b72;
+}
+
 nav img {
 	height: 24px;
 	width: 24px;
