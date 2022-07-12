@@ -1,0 +1,122 @@
+* {
+	font-family: 'Poppins', sans-serif;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #e9eff4;
+}
+
+nav {
+	background-color: #e9eff4;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	height: 56px;
+}
+
+nav a {
+	color: #000;
+	text-decoration: none;
+	font-family: 'Patua One', cursive;
+}
+
+nav img {
+	width: 24px;
+	height: 24px;
+}
+
+.landing {
+	background-image: url('../imgs/landing.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100vw;
+	height: calc(100vh - 56px);
+}
+
+.logo-container {
+	width: 40%;
+	height: 40%;
+}
+
+.landing-info h1 {
+	font-family: 'Patua One', cursive;
+}
+
+.landing-info p {
+	font-family: 'Poppins', sans-serif;
+}
+
+.card__register-info {
+	background-color: #fff;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 16px;
+	padding: 30px;
+}
+
+.register-steps .card__register-step {
+	background-color: #fff;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 16px;
+	padding: 10px;
+}
+
+.card__register-step h3 {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.mapouter {
+	position: relative;
+	text-align: right;
+	width: 100%;
+	height: 250px;
+}
+
+.gmap_canvas {
+	overflow: hidden;
+	background: none !important;
+	width: 100%;
+	height: 250px;
+}
+
+.gmap_iframe {
+	height: 250px !important;
+}
+
+#footer {
+	background-color: #212529;
+	color: #636b72;
+	font-size: 10px;
+}
+
+#footer .footer-info {
+	padding: 20px;
+}
+
+#footer h4 {
+	font-size: 10px;
+	font-weight: bold;
+}
+
+.social-icons {
+	align-items: center;
+	display: flex;
+	justify-content: space-evenly;
+	font-size: 20px;
+}
+
+.social-icons a {
+	color: #636b72;
+	text-decoration: none;
+}
+
+#footer .footer-copyright {
+	background-color: #1a1e21;
+	padding: 10px;
+}
+
+#footer .footer-copyright p {
+	margin-bottom: 0px !important;
+}
