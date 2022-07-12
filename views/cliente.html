@@ -20,18 +20,29 @@
     <!-- Custom css -->
     <link rel="stylesheet" href="../css/layout.css">
     <link rel="stylesheet" href="../css/cliente/cliente.css">
+    <link rel="stylesheet" href="../css/cliente/desk.css">
+    <link rel="stylesheet" href="../css/cliente/layout.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg sticky-top">
+    <nav class="navbar navbar-expand sticky-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <img src="../imgs/logo.png" alt="Logo de Motor Express" class="d-inline-block align-text-top">
                 Motor Express
             </a>
-            <a href="/index.html">
-                Logout <i class="fa-solid fa-arrow-right-to-bracket"></i>
-            </a>
+            <ul class="nav navbar-nav ms-auto">
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Josafat</a>
+                    <div class="dropdown-menu dropdown-menu-end">
+                        <a href="/index.html" class="dropdown-item">
+                            Logout
+                            <i class="fas fa-sign-out-alt"></i>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+
         </div>
     </nav>
 
@@ -44,7 +55,7 @@
             <div class="row align-items-center justify-content-center mb-md-5">
                 <div class="col-12 col-md-6 d-flex justify-content-center mb-4 mb-md-0">
                     <a href="" class="card-action card-information">
-                        <div class="bg-black bg-opacity-50 w-100 h-100 text-center card-background">
+                        <div class="bg-black bg-opacity-75 w-100 h-100 text-center card-background">
                             <h2>MI INFORMACIÓN</h2>
                         </div>
 
@@ -52,7 +63,7 @@
                 </div>
                 <div class="col-12 col-md-6 d-flex justify-content-center mb-4 mb-md-0">
                     <a href="" class="card-action card-cars">
-                        <div class="bg-black bg-opacity-50 w-100 h-100 text-center card-background">
+                        <div class="bg-black bg-opacity-75 w-100 h-100 text-center card-background">
                             <h2>MIS AUTOS</h2>
                         </div>
 
@@ -62,7 +73,7 @@
             <div class="row align-items-center justify-content-center">
                 <div class="col-12 col-md-6 d-flex justify-content-center mb-4">
                     <a href="" class="card-action card-pays">
-                        <div class="bg-black bg-opacity-50 w-100 h-100 text-center card-background">
+                        <div class="bg-black bg-opacity-75 w-100 h-100 text-center card-background">
                             <h2>PAGOS</h2>
                         </div>
 
@@ -70,7 +81,7 @@
                 </div>
                 <div class="col-12 col-md-6 d-flex justify-content-center mb-md-4">
                     <a href="" class="card-action card-services">
-                        <div class="bg-black bg-opacity-50 w-100 h-100 text-center card-background">
+                        <div class="bg-black bg-opacity-75 w-100 h-100 text-center card-background">
                             <h2>SERVICIOS</h2>
                         </div>
 
