@@ -18,7 +18,6 @@ const toggleTabActive = (tab) => {
 };
 
 const toggleInfoActive = (info) => {
-	console.log(tabContent);
 	tabContent.forEach((content) => {
 		content.classList.remove('info-active');
 		content.classList.add('info-hide');
