@@ -92,37 +92,38 @@
         <div class="container mt-5">
             <div class="profile-info">
                 <div class="row">
-                    <div class="col-md-3">
-                        <div class="info-tab">
+                    <div class="col-md-3 col-12">
+                        <div class="info-tab py-2 mb-4">
                             <ul>
-                                <li>
+                                <li class="my-3 tab-active" data-tab="general">
                                     Datos generales
                                 </li>
-                                <li>
+                                <li data-tab="direccion">
                                     Dirección
                                 </li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-md-9">
+                    <div class="col-md-9 col-12">
                         <div class="info-container p-4">
-                            <form>
-                                <div class="mb-3 row">
-                                    <div class="col-md-6">
+                            <form class="info-tab-content-general">
+                                <div class="mb-md-3 row">
+                                    <div class="col-md-6 col-12 mb-3">
                                         <div class="row">
-                                            <label for="name" class="text-end col-md-3 col-form-label">Nombre:</label>
-                                            <div class="col-md-9">
+                                            <label for="name"
+                                                class="text-lg-end col-lg-3 col-form-label">Nombre:</label>
+                                            <div class="col-lg-9">
                                                 <input type="text" class="form-control" id="name" aria-label="Disabled"
                                                     value="Josafat Muñoz Valverde" disabled>
                                             </div>
                                         </div>
                                     </div>
 
-                                    <div class="col-md-6">
+                                    <div class="col-md-6 col-12 mb-3">
                                         <div class="row">
                                             <label for="phone"
-                                                class="text-end col-md-3 col-form-label">Teléfono:</label>
-                                            <div class="col-md-9">
+                                                class="text-lg-end col-lg-3 col-form-label">Teléfono:</label>
+                                            <div class="col-lg-9">
                                                 <input type="text" disabled class="form-control" id="phone"
                                                     value="7771096584">
                                             </div>
@@ -130,21 +131,22 @@
                                     </div>
                                 </div>
 
-                                <div class="mb-3 row">
-                                    <div class="col-md-6">
+                                <div class="mb-md-3 row">
+                                    <div class="col-md-6 col-12 mb-3">
                                         <div class="row">
-                                            <label for="email" class="text-end col-md-3 col-form-label">Correo:</label>
-                                            <div class="col-md-9">
+                                            <label for="email"
+                                                class="text-lg-end col-lg-3 col-form-label">Correo:</label>
+                                            <div class="col-lg-9">
                                                 <input type="text" disabled class="form-control" id="email"
                                                     value="josafatmunoz5@gmail.com">
                                             </div>
                                         </div>
                                     </div>
 
-                                    <div class="col-md-6">
+                                    <div class="col-md-6 col-12 mb-3">
                                         <div class="row">
-                                            <label for="rfc" class="text-end col-md-3 col-form-label">RFC:</label>
-                                            <div class="col-md-9">
+                                            <label for="rfc" class="text-lg-end col-lg-3 col-form-label">RFC:</label>
+                                            <div class="col-lg-9">
                                                 <input type="text" disabled class="form-control" id="rfc"
                                                     value="SOVC030808KM7">
                                             </div>
@@ -152,6 +154,56 @@
                                     </div>
                                 </div>
                             </form>
+
+                            <form class="info-hide info-tab-content-direccion">
+                                <div class="mb-md-3 row">
+                                    <div class="col-md-6 col-12 mb-3">
+                                        <div class="row">
+                                            <label for="street"
+                                                class="text-lg-end col-lg-3 col-form-label">Calle:</label>
+                                            <div class="col-lg-9">
+                                                <input type="text" class="form-control" id="street"
+                                                    aria-label="Disabled" value="Juventino Rosas" disabled>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6 col-12 mb-3">
+                                        <div class="row">
+                                            <label for="phone"
+                                                class="text-lg-end col-lg-3 col-form-label">Teléfono:</label>
+                                            <div class="col-lg-9">
+                                                <input type="text" disabled class="form-control" id="phone"
+                                                    value="7771096584">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="mb-md-3 row">
+                                    <div class="col-md-6 col-12 mb-3">
+                                        <div class="row">
+                                            <label for="email"
+                                                class="text-lg-end col-lg-3 col-form-label">Correo:</label>
+                                            <div class="col-lg-9">
+                                                <input type="text" disabled class="form-control" id="email"
+                                                    value="josafatmunoz5@gmail.com">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-6 col-12 mb-3">
+                                        <div class="row">
+                                            <label for="rfc" class="text-lg-end col-lg-3 col-form-label">RFC:</label>
+                                            <div class="col-lg-9">
+                                                <input type="text" disabled class="form-control" id="rfc"
+                                                    value="SOVC030808KM7">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+
                         </div>
                     </div>
                 </div>
@@ -202,6 +254,9 @@
 
     <!-- Fontawesome Icons -->
     <script src="https://kit.fontawesome.com/d35d510498.js" crossorigin="anonymous"></script>
+
+    <!-- Custom script -->
+    <script src="../../js/pages/cliente/informacion.js"></script>
 </body>
 
 </html>
