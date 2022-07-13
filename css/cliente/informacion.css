@@ -33,14 +33,38 @@
 	border-radius: 16px;
 }
 
+.info-tab ul {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
 .profile-info .info-tab li {
 	list-style: none;
+	cursor: pointer;
+	padding: 10px 0px 10px 40px;
+}
+
+.info-tab .tab-active {
+	background-color: #e9eff4;
 }
 
 .profile-info .info-container {
 	background: #ffffff;
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 	border-radius: 16px;
+}
+
+.info-active {
+	display: block;
+}
+
+.info-hide {
+	display: none;
+}
+
+.profile-info .info-container input {
+	font-size: 14px;
 }
 
 @media (min-width: 768px) {
@@ -65,7 +89,7 @@
 	}
 
 	.profile-info .info-tab ul {
-		padding-top: 70px;
+		padding-top: 40px;
 		font-size: 20px;
 	}
 
