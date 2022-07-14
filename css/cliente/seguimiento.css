@@ -1,0 +1,9 @@
+hr {
+	position: absolute;
+	border: none;
+	border-top: 4px dotted #000;
+	color: #fff;
+	width: 20px;
+	height: 20px;
+	transform: rotate(90deg);
+}
