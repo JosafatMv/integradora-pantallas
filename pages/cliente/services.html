@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cliente</title>
+
+    <!-- Bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <!-- Custom css -->
+    <link rel="stylesheet" href="../../css/layout.css">
+    <link rel="stylesheet" href="../../css/cliente/layout.css">
+    <link rel="stylesheet" href="../../css/cliente/payments.css">
+    <link rel="stylesheet" href="../../css/cliente/services.css">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="../../imgs/logo.png" alt="Logo de Motor Express" class="d-inline-block align-text-top">
+                Motor Express
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="nav navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Información</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Autos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pagos</a>
+                    </li>
+
+                </ul>
+                <ul class="nav navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Josafat</a>
+                        <div class="dropdown-menu dropdown-menu-end">
+                            <a href="/index.html" class="dropdown-item">
+                                Logout
+                                <i class="fas fa-sign-out-alt"></i>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+
+    <!-- Main content -->
+    <main class="my-5">
+        <div class="container">
+            <h1 class="mb-3">Servicios</h1>
+            <div class="row">
+
+                <div class="col-md-3 col-12">
+                    <div class="filter-tab py-4 mb-4">
+                        <button class="tab-active mb-3 d-block text-start">Todos</button>
+                        <button class="mb-3 d-block text-start">Finalizados</button>
+                        <button class="d-block text-start">Sin pagar</button>
+                    </div>
+                </div>
+
+                <div class="col-md-9 col-12">
+                    <div class="col-12 mb-4">
+                        <div class="row g-md-0">
+
+                            <div class="col-12 col-md-4">
+                                <div class="car-card">
+                                    <div class="car-card-title text-center">
+                                        <p class="card-title">Nissan Versa 2020</p>
+                                    </div>
+                                    <div
+                                        class="car-card-plates text-center py-2 d-flex align-items-center justify-content-center">
+                                        <h4>A55-06-27</h4>
+                                    </div>
+                                    <div class="car-card-footer text-center">
+                                        <p>
+                                            Color: rojo
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-md-7">
+                                <div class="service-info p-3 p-md-2">
+                                    <div class="service-info-title d-flex align-items-center mb-2">
+                                        <p>Cambio de luces y los faros</p>
+                                    </div>
+                                    <div class="service-info-content">
+                                        <p class="mb-md-1">
+                                            Tu vehículo ha pasado a la etapa de: <span class="fw-bold">Realizando</span>
+                                        </p>
+                                        <p>17/07/2022 · 13:53 hrs</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-md-1">
+                                <a href="#" class="arrow-container d-flex align-items-center justify-content-center">
+                                    <i class="fa-solid fa-caret-right"></i>
+                                    <!-- <i class="fa-solid fa-caret-down"></i> -->
+                                </a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+
+
+    <footer id="footer">
+
+        <div class="footer-info">
+            <h4>¡Siguenos en todas nuestras redes sociales!</h4>
+            <p>
+                Para que no te pierdas de nada relacionado al taller, siguenos en nuestras redes sociales donde
+                publicaremos
+                todas las novedades. Tambien nos gusta leerlos a ustedes asi que no olviden dejarnos tu opinión acerca
+                de
+                nuestros servicios. ¡Gracias!
+            </p>
+            <div class="social-icons">
+                <a href="https://facebook.com" target="_blank">
+                    <i class="fab fa-facebook-square"></i>
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <i class=" fab fa-twitter-square"></i>
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <i class=" fab fa-instagram"></i>
+                </a>
+                <a href="https://tiktok.com" target="_blank">
+                    <i class="fab fa-tiktok"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="footer-copyright">
+            <p>
+                Motor Express &copy; 2022. Todos los derechos reservados.
+            </p>
+        </div>
+    </footer>
+
+
+    <!-- Bootstrap script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
+
+    <!-- Fontawesome Icons -->
+    <script src="https://kit.fontawesome.com/d35d510498.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -7,6 +7,9 @@
 
 body {
 	background-color: #e9eff4;
+	min-height: 100vh;
+	padding-bottom: 200px;
+	position: relative;
 }
 
 /* Nav */
@@ -32,12 +35,24 @@ nav img {
 	width: 24px;
 }
 
+h1 {
+	font-family: 'Bebas Neue', cursive;
+}
+
+main p {
+	margin: 0px;
+	padding: 0px;
+}
+
 /* Footer */
 
 #footer {
 	background-color: #212529;
 	color: #636b72;
 	font-size: 10px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
 }
 
 #footer .footer-info {
@@ -68,4 +83,16 @@ nav img {
 
 #footer .footer-copyright p {
 	margin-bottom: 0px !important;
+}
+
+@media only screen and (min-width: 576px) {
+	body {
+		padding-bottom: 156px;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	body {
+		padding-bottom: 156px;
+	}
 }

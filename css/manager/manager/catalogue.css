@@ -1,0 +1,41 @@
+/* Scroll bar */
+.card-list {
+	position: relative;
+	height: 360px;
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+	overflow-y: scroll;
+	user-select: none;
+}
+
+.card-list::-webkit-scrollbar {
+	-webkit-appearance: none;
+}
+
+.card-list::-webkit-scrollbar:vertical {
+	width: 11px;
+}
+
+.card-list::-webkit-scrollbar:horizontal {
+	height: 11px;
+}
+
+.card-list::-webkit-scrollbar-thumb {
+	border-radius: 8px;
+	border: 2px solid #e9eff4; /* should match background, can't be transparent */
+	background-color: rgba(0, 0, 0, 0.5);
+}
+/*  */
+
+.service-info {
+	cursor: pointer;
+}
+
+.service-info-active {
+	box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.service-info-disabled {
+	background: #e6ebf0;
+	color: #9f9f9f;
+}
