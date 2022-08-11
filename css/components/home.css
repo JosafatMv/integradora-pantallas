@@ -32,16 +32,44 @@ h2 {
 	background-image: url('../../imgs/cliente/informacion.jpg');
 }
 
-.card-cars {
-	background-image: url('../../imgs/cliente/autos.jpg');
+.card-register-client {
+	background-image: url('../../imgs/cliente/registro-client.jpg');
 }
 
-.card-pays {
-	background-image: url('../../imgs/cliente/pagos.jpg');
+.card-register-vehicle {
+	background-image: url('../../imgs/cliente/registro-car.jpg');
+}
+
+.card-list-clients {
+	background-image: url('../../imgs/cliente/clients.jpg');
+}
+
+.card-list-catalogue {
+	background-image: url('../../imgs/cliente/catalogue.jpg');
+}
+
+.card-list-products {
+	background-image: url('../../imgs/manager/products.jpg');
 }
 
 .card-services {
+	background-image: url('../../imgs/cliente/vehicle-services.jpg');
+}
+
+.card-histories {
 	background-image: url('../../imgs/cliente/servicios.jpg');
+}
+
+.card-charges {
+	background-image: url('../../imgs/cashier/charges.jpg');
+}
+
+.card-users {
+	background-image: url('../../imgs/manager/users.jpg');
+}
+
+.card-vehicles {
+	background-image: url('../../imgs/cliente/autos.jpg');
 }
 
 .card-action h2 {
@@ -64,6 +92,6 @@ h2 {
 
 @media only screen and (min-width: 768px) {
 	.card-action {
-		width: 60%;
+		width: 100%;
 	}
 }

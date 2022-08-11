@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cliente</title>
+
+    <!-- Bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <!-- Custom css -->
+    <link rel="stylesheet" href="../../css/layout.css">
+    <link rel="stylesheet" href="../../css/components/filter-tab.css">
+    <link rel="stylesheet" href="../../css/attendee/list-clients.css">
+    <link rel="stylesheet" href="../../css/components/input-search.css">
+    <link rel="stylesheet" href="../../css/components/buttons.css">
+    <link rel="stylesheet" href="../../css/components/scroll.css">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="../../imgs/logo.png" alt="Logo de Motor Express" class="d-inline-block align-text-top">
+                Motor Express
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="nav navbar-nav me-auto mb-2 mb-md-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="informacion.html">Registro de usuarios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../mecanico/servicio.html">Registro de vehiculos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Clientes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Catalogos</a>
+                    </li>
+
+                </ul>
+                <ul class="nav navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Josafat</a>
+                        <div class="dropdown-menu dropdown-menu-end">
+                            <a href="/index.html" class="dropdown-item">
+                                Logout
+                                <i class="fas fa-sign-out-alt"></i>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+
+    <!-- Main content -->
+    <main class="my-5">
+
+        <div class="container my-5">
+            <h1 class="my-3">Lista de usuarios</h1>
+
+            <div class="row">
+
+                <div class="col-md-3 col-12">
+                    <div class="filter-tab py-4 mb-4">
+                        <a href="list-users.html" class="mb-3 d-block text-start" id="btn-start">Todos</a>
+                        <a href="#" class="tab-active mb-3 d-block text-start" id="btn-start">Gerentes</a>
+                        <a href="list-attendees.html" class="mb-3 d-block text-start" id="btn-inprogress">Asistente</a>
+                        <a href="list-mechanics.html" class="mb-3 d-block text-start" id="btn-end">Mecanico</a>
+                        <a href="list-cashiers.html" class="mb-3 d-block text-start" id="btn-end">Caja</a>
+                        <a href="list-clients.html" class="mb-3 d-block text-start" id="btn-end">Cliente</a>
+                    </div>
+                </div>
+
+                <div class="col-md-9 col-12">
+
+                    <form action="" class="mb-5">
+
+                        <div class="d-flex justify-content-center">
+                            <div class="search">
+                                <input type="text" class="search-input" placeholder="Buscar RFC, nombre" name="search">
+                                <button type="submit" class="search-icon"> <i class="fa fa-search"></i> </button>
+                            </div>
+                        </div>
+
+                    </form>
+
+                    <div class="scroll-horizontal">
+                        <div class="col-12 mb-4">
+                            <div class="row g-md-0">
+                                <div class="col-12 col-md-10">
+                                    <div class="user-info p-3 p-md-2 ps-md-5">
+                                        <div class="user-info-title mb-2">
+                                            <h3>Josafat Muñoz Valverde</h3>
+                                        </div>
+                                        <div class="user-info-content">
+                                            <p class="mb-md-1">
+                                                RFC: SOVC030808KM7
+                                            </p>
+                                            <p>
+                                                2 vehículos
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-2 col-md-1">
+                                    <a href="#" class="arrow-container d-flex align-items-center justify-content-center">
+                                        <i class="fa-solid fa-caret-right"></i>
+                                        <!-- <i class="fa-solid fa-caret-down"></i> -->
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 mb-4">
+                            <div class="row g-md-0">
+                                <div class="col-12 col-md-10">
+                                    <div class="user-info p-3 p-md-2 ps-md-5">
+                                        <div class="user-info-title mb-2">
+                                            <h3>Josafat Muñoz Valverde</h3>
+                                        </div>
+                                        <div class="user-info-content">
+                                            <p class="mb-md-1">
+                                                RFC: SOVC030808KM7
+                                            </p>
+                                            <p>
+                                                2 vehículos
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-2 col-md-1">
+                                    <a href="#" class="arrow-container d-flex align-items-center justify-content-center">
+                                        <i class="fa-solid fa-caret-right"></i>
+                                        <!-- <i class="fa-solid fa-caret-down"></i> -->
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 mb-4">
+                            <div class="row g-md-0">
+                                <div class="col-12 col-md-10">
+                                    <div class="user-info p-3 p-md-2 ps-md-5">
+                                        <div class="user-info-title mb-2">
+                                            <h3>Josafat Muñoz Valverde</h3>
+                                        </div>
+                                        <div class="user-info-content">
+                                            <p class="mb-md-1">
+                                                RFC: SOVC030808KM7
+                                            </p>
+                                            <p>
+                                                2 vehículos
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-2 col-md-1">
+                                    <a href="#" class="arrow-container d-flex align-items-center justify-content-center">
+                                        <i class="fa-solid fa-caret-right"></i>
+                                        <!-- <i class="fa-solid fa-caret-down"></i> -->
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <form action="" id="form-register">
+                <input type="hidden" name="plates" value="" id="plates" />
+                <input type="hidden" name="status" value="start" id="status" />
+                <input type="hidden" name="rfcMechanic" value="" id="rfcMechanic" />
+                <input type="hidden" name="idHistory" value="" id="idHistory" />
+
+                <div class="text-end my-3">
+                    <button class="button-custom" type="submit" id="btn-submit">
+                        Iniciar
+                    </button>
+                </div>
+            </form>
+
+        </div>
+
+
+    </main>
+
+
+    <footer id="footer">
+
+        <div class="footer-info">
+            <h4>¡Siguenos en todas nuestras redes sociales!</h4>
+            <p>
+                Para que no te pierdas de nada relacionado al taller, siguenos en nuestras redes sociales donde
+                publicaremos
+                todas las novedades. Tambien nos gusta leerlos a ustedes asi que no olviden dejarnos tu opinión acerca
+                de
+                nuestros servicios. ¡Gracias!
+            </p>
+            <div class="social-icons">
+                <a href="https://facebook.com" target="_blank">
+                    <i class="fab fa-facebook-square"></i>
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <i class=" fab fa-twitter-square"></i>
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <i class=" fab fa-instagram"></i>
+                </a>
+                <a href="https://tiktok.com" target="_blank">
+                    <i class="fab fa-tiktok"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="footer-copyright">
+            <p>
+                Motor Express &copy; 2022. Todos los derechos reservados.
+            </p>
+        </div>
+    </footer>
+
+
+    <!-- Bootstrap script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
+
+    <!-- Fontawesome Icons -->
+    <script src="https://kit.fontawesome.com/d35d510498.js" crossorigin="anonymous"></script>
+
+    <!-- Custom script -->
+    <script src="../../js/pages/cliente/informacion.js"></script>
+</body>
+
+</html>

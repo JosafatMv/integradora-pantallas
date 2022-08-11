@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Cliente</title>
 
+    <!--CDN font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <!-- Bootstrap css -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
@@ -15,9 +20,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 
     <!-- Custom css -->
-    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/login.css">
+
 </head>
 
 <body>
@@ -35,6 +43,48 @@
 
 
     <!-- Main content -->
+    <main>
+        <div class="landing text-center text-white container-fluid pb-5">
+            <div class="row justify-content-center align-items-center">
+
+                <div class="logo-container col-12 col-sm-6 my-3">
+                    <img src="imgs/logo-landing.png" alt="Logo de Motor Express" class="img-fluid">
+                </div>
+
+                <div class="col-12 col-sm-6 text-start d-flex justify-content-center">
+                    <form action="" class="px-4">
+
+                        <h1 class="text-center py-3">INICIAR SESIÓN</h1>
+
+                        <div class="input-group mb-4">
+                            <span class="input-group-text" id="campo-contraseña">
+                                <i class="fa-solid fa-lock"></i>
+                            </span>
+                            <input type="password" class="form-control" placeholder="Nueva Contraseña"
+                                aria-label="Nueva Contraseña" aria-describedby="campo-contraseña" name="password"
+                                required>
+                        </div>
+
+                        <div class="input-group mb-5">
+                            <span class="input-group-text" id="campo-contraseña">
+                                <i class="fa-solid fa-lock"></i>
+                            </span>
+                            <input type="password" class="form-control" placeholder="Confirmar contraseña"
+                                aria-label="Confirmar contraseña" aria-describedby="campo-contraseña" name="password"
+                                required>
+                        </div>
+
+
+                        <div class="d-grid gap-2 text-center mb-4">
+                            <button type="submit" class="btn btn-primary mx-auto">Confirmar</button>
+                        </div>
+
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </main>
 
 
     <footer id="footer">
@@ -76,6 +126,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
     </script>
+
+    <!-- Fontawesome Icons -->
+    <script src="https://kit.fontawesome.com/d35d510498.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
